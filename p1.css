@@ -1,0 +1,41 @@
+p
+{
+    color: purple;
+    text-align: left;
+    text-indent: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px green;
+}
+h6
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+h1
+{
+    border-width:4px;border-style: double ; border-color: red;
+}
+h2
+{
+    border: 5px dotted green;
+}
+h3
+{
+    border-left: 3px dashed blue;
+    border-right: 2px dotted black;
+}
+div
+{
+    height: 200;
+    width: 200;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+}

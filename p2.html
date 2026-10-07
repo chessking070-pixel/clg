@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            #i1
+            {
+                font-size: 20px;
+                color: blue;
+            }
+            #i2
+            {
+                font-size:5px;
+                color: red;
+            }
+            [type = "text"]
+            {
+                background-color: red;
+            }
+            [type="password"]
+            {
+                background-color: yellow;
+            }
+            /* descendant selector */
+            /* div p
+            {
+                background-color: aqua;
+                font-style: italic;
+            } */
+            /* child selector */
+            div>p
+            {
+                background-color: aqua;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="i1">This is #i1</p>
+        <p id="i2">This is #i2</p>
+        <input type="text" name="" id=""> <br>
+        <input type="password" name="" id="">
+        <div>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+            <section>
+                <p>para inside section</p>    <!-- applies in descendant but not in child -->
+            </section>
+        </div>
+        <p>para outside div</p>                <!-- won't apply in descendant or child -->
+    </body>
+</html>
